@@ -6,6 +6,7 @@ import About from './about/page';
 import Skills from './skills/page';
 import Projects from './projects/page';
 import Education from './education/page';
+import Contact from './contact/page';
 const page = () => {
   console.log("hey");
 
@@ -17,6 +18,7 @@ const page = () => {
    <Skills/>
    <Projects/>
    <Education/>
+   <Contact/>
    </>
   )
 }

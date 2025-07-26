@@ -78,7 +78,7 @@ const Education = () => {
             >
               <RiContactsLine size={30} className="mb-6 text-pink-500" />
               <div className="ml-3 text-lg text-amber-50">
-                <h1 className="font-bold">HIGHER SECONDARY CERTIFICAT</h1>
+                <h1 className="font-bold">HIGHER SECONDARY CERTIFICATE</h1>
                 <p>Khatoon-Pakistan Government College</p>
               </div>
             </motion.div>

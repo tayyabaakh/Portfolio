@@ -5,10 +5,9 @@ const About = () => {
   return (
     <div
     id="about"
-      style={{
-        background:
-          "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)",
-      }}
+     style={{ 
+          background: "linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(3, 7, 18, 1) 100%)"}}
+    
       className="py-40 px-
       10"
     >
