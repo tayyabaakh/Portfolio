@@ -33,18 +33,18 @@ const cards = [
     img: "/olx.jpg",
     description: "Developed an OLX clone using React JS and Tailwind CSS, implementing dynamic rendering with React Router. Fetched and displayed listings via Axios from a public API, ensuring responsive and intuitive UI.",
   },
-  {
-    id: 5,
-    title: "Card 5",
-    img: "https://via.placeholder.com/300x400",
-    description: "",
-  },
-  {
-    id: 6,
-    title: "Card 6",
-    img: "https://via.placeholder.com/300x400",
-    description: "",
-  },
+  // {
+  //   id: 5,
+  //   title: "Card 5",
+  //   img: "https://via.placeholder.com/300x400",
+  //   description: "",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Card 6",
+  //   img: "https://via.placeholder.com/300x400",
+  //   description: "",
+  // },
 ];
 
 const Projects = () => {
