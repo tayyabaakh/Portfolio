@@ -46,6 +46,7 @@ const Skills = () => {
                 </div>
                 <div style={{background:'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)'}} className='w-40 h-40  rounded overflow-hidden flex-shrink-0'>
                   <Image
+                  alt=''
                   src={'/css.svg'}
                   width={90}
                   height={90}
@@ -56,6 +57,7 @@ const Skills = () => {
                 </div>
                 <div style={{background:'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)'}} className='w-40 h-40 bg-gray-200 rounded overflow-hidden flex-shrink-0'>
                   <Image
+                  alt=''
                   src={'/javascript.png'}
                   width={120}
                   height={120}
@@ -66,6 +68,7 @@ const Skills = () => {
                 </div>
                 <div style={{background:'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)'}} className='w-40 h-40 bg-gray-200 rounded overflow-hidden flex-shrink-0'>
                   <Image
+                  alt=''
                   src={'/react.png'}
                   width={150}
                   height={150}
@@ -78,6 +81,7 @@ const Skills = () => {
                 <div style={{background:'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)'}} className='w-40 h-40 bg-gray-200 rounded overflow-hidden flex-shrink-0'>
                  
                   <Image
+                  alt=''
                   src={'/tailwind.png'}
                   width={100}
                   height={100}
@@ -88,6 +92,7 @@ const Skills = () => {
                 </div>
                 <div style={{background:'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)'}} className='w-40 h-40 bg-gray-200 rounded overflow-hidden flex-shrink-0 '> 
                   <Image
+                  alt=''
                   src={'/nextjs.png'}
                   width={120}
                   height={130}
@@ -98,6 +103,7 @@ const Skills = () => {
                 </div>
                  <div style={{background:'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)'}} className='w-40 h-40 bg-yellow-200 rounded overflow-hidden flex-shrink-0 '> 
                   <Image
+                  alt=''
                   src={'/reactnative.png'}
                   width={100}
                   height={100}
@@ -109,6 +115,7 @@ const Skills = () => {
                 </div>
                  <div style={{background:'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)'}} className='w-40 h-40 bg-yellow-200 rounded overflow-hidden flex-shrink-0 '> 
                   <Image
+                  alt=''
                   src={'/firebase.png'}
                   width={120}
                   height={120}

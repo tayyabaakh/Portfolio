@@ -17,12 +17,14 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form"
+import { formSchema } from "@/lib/schemas"
+import { send } from "@/lib/email"
 
-const formSchema = z.object({
-  username: z.string().min(2, { message: "Username must be at least 2 characters" }).max(50, { message: "Username must be at most 50 characters" }),
-  email: z.string().email({ message: "Invalid email address" }),
-  message: z.string().min(2, { message: "Message must be at least 2 characters" }),
-});
+// const formSchema = z.object({
+//   username: z.string().min(2, { message: "Username must be at least 2 characters" }).max(50, { message: "Username must be at most 50 characters" }),
+//   email: z.string().email({ message: "Invalid email address" }),
+//   message: z.string().min(2, { message: "Message must be at least 2 characters" }),
+// });
 
 export default function ContactForm() {
   const form = useForm({
@@ -34,9 +36,17 @@ export default function ContactForm() {
     },
   });
 
-  const onSubmit = (values) => {
-    console.log(values);
-  };
+ const onSubmit = async (values) => {
+  const { firstName, email, message } = values;
+
+  const result = await send({ firstName, email, message });
+
+  if (result.error) {
+    console.error("Error sending email:", result.error);
+  } else {
+    console.log("Email sent successfully");
+  }
+};
 
   return (
     <div className="w-full flex justify-center px-4 sm:px-6 md:px-8 py-6">
@@ -116,7 +126,7 @@ export default function ContactForm() {
                   type="submit"
                   className="w-44 bg-gradient-to-r from-violet-600 to-pink-500 p-[1.5px] rounded-b-sm hover:from-pink-500 hover:to-violet-600 transition-all duration-300"
                 >
-                  Submit
+                  Send
                 </Button>
               </div>
             </form>
