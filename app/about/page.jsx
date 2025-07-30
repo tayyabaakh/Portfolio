@@ -15,10 +15,10 @@ const About = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-10 md:space-y-0">
         {/* Text Section */}
         
-        <div className="md:w-1/2 md:ml- sm:p-10">
+        <div className="md:w-1/2 md:ml- sm:p-10 p-9 ">
         
           <h1 className="text-pink-500 font-bold text-4xl pb-6 sm:text-center lg:text-left">Who I am?</h1>
-          <p className="text-amber-50 leading-7 sm:text-center lg:text-left">
+          <p className="text-amber-50 leading-7 sm:text-center  lg:text-left">
             Hi, I'm <b className="text-[#16f2b3]">Tayyaba Akhter</b>, a passionate Computer Science undergraduate
             with a strong enthusiasm for programming and self-driven learning.
             I thrive on exploring new technologies and building creative digital

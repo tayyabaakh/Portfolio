@@ -23,7 +23,7 @@ const Skills = () => {
             <div className='w-1/15 h-px from-transparent  via-pink-400 to-transparent bg-gradient-to-r'></div>
          </div>
          {/* scrollable skills section */}
-         <div className='p-30 '>
+         <div className='p-20 '>
             <Marquee
             gradient={false}
             speed={80}
