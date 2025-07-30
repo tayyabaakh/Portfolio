@@ -76,6 +76,7 @@ const Home = () => {
   <Link
     target="blank"
     href="https://drive.google.com/file/d/1HMVzX1EZ82mbt6mObb9YfgxajRGJ9MeL/view?usp=drive_link"
+  
     className="bg-gradient-to-r from-violet-600 to-pink-500 p-[1.5px] rounded-full hover:from-pink-500 hover:to-violet-600 transition-all duration-300"
   >
     <button className="flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-3 md:px-5 md:py-2 text-xs sm:text-sm md:text-base font-semibold text-white bg-gradient-to-r from-violet-600 to-pink-500 rounded-full border-none transition-all duration-300 hover:gap-3">
